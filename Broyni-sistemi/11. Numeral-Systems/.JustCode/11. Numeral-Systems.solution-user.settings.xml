@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JustCodeSettings Version="0.0" Timestamp="fe2c6efe-c560-4197-ba86-efa19fd35de0">
+  <IgnoredErrorsAndWarningsSettings xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <IgnoredErrorsAndWarnings>
+      <FilePath>
+        <Path>C:\users\nikolay\documents\visual studio 2012\Projects\11. Numeral-Systems\7. Convert\Convert.cs</Path>
+        <ProjectFullName>c:\users\nikolay\documents\visual studio 2012\Projects\11. Numeral-Systems\7. Convert\7. Convert.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>29</Column>
+          <Text>Unknown method &lt;/C&gt;ToInt32&lt;//C&gt; of &lt;/C&gt;Convert&lt;//C&gt;</Text>
+          <Line>20</Line>
+        </IgnoredElement>
+      </FilePath>
+    </IgnoredErrorsAndWarnings>
+  </IgnoredErrorsAndWarningsSettings>
+</JustCodeSettings>

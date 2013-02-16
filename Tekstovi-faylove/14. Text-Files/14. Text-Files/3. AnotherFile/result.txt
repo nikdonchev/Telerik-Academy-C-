@@ -1,0 +1,27 @@
+1. using System;
+2. using System.IO;
+3. 
+4. public class AnotherFile
+5. {
+6.     public static void Main()
+7.     {
+8.         string inputFile = "../../AnotherFile.cs";
+9.         string outputFile = "../../result.txt";
+10.         StreamReader reader = new StreamReader(inputFile);
+11.         StreamWriter writer = new StreamWriter(outputFile);
+12.         using (reader)
+13.         {
+14.             using (writer)
+15.             {
+16.                 int lineNumber = 0;
+17.                 string line = reader.ReadLine();
+18.                 while (line != null)
+19.                 {
+20.                     lineNumber++;
+21.                     writer.WriteLine("{0}. {1}", lineNumber, line);
+22.                     line = reader.ReadLine();
+23.                 }
+24.             }
+25.         }
+26.     }
+27. }
